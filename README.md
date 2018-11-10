@@ -53,16 +53,26 @@ i := 1
 
 fizzBuzz:
 
-"func fizzBuzz(x int) { \n
-	for i := 1; i <= x; i++ { \n
-		if i%3 == 0 && i%5 == 0 { \n
-			fmt.Println("fizzBuzz", i) \n
-		} else if i%5 == 0 { \n
-			fmt.Println("buzz", i) \n
-		} else if i%3 == 0 { \n
-			fmt.Println("fizz", i) \n
+"func fizzBuzz(x int) {
+  
+	for i := 1; i <= x; i++ {
+    
+		if i%3 == 0 && i%5 == 0 {
+      
+			fmt.Println("fizzBuzz", i)
+      
+		} else if i%5 == 0 {
+      
+			fmt.Println("buzz", i)
+      
+		} else if i%3 == 0 {
+      
+			fmt.Println("fizz", i)
+      
 		}
+    
 	}
+  
 }"
 
 --------------------------------------
