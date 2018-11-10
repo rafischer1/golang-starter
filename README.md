@@ -53,26 +53,18 @@ i := 1
 
 fizzBuzz:
 
-"func fizzBuzz(x int) {
-  
-	for i := 1; i <= x; i++ {
-    
+```
+func fizzBuzz(x int) {
+	for i := 1; i <= x; i++ {  
 		if i%3 == 0 && i%5 == 0 {
-      
 			fmt.Println("fizzBuzz", i)
-      
 		} else if i%5 == 0 {
-      
 			fmt.Println("buzz", i)
-      
 		} else if i%3 == 0 {
-      
 			fmt.Println("fizz", i)
-      
 		}
-    
 	}
-  
-}"
+}
+```
 
 --------------------------------------
