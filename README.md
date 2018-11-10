@@ -12,7 +12,13 @@ variables:
 name string
 age  int
 
-assignment: x := 20
+// variable declaration
+var d = true
+e := false
+fmt.Println("d, e:", d, e)  // d, e: true false
+var b, c int = 1, 2
+
+
 -----------------------------------
 values:
 
