@@ -27,4 +27,26 @@ func main() {
 		fmt.Println(n)
 	}
 
+	//if else
+	if 7%2 == 0 {
+		fmt.Println("7 is even")
+	} else {
+		fmt.Println("7 is odd")
+	}
+
+	//fizz fizzBuzz
+	fizzBuzz(20)
+
+}
+
+func fizzBuzz(x int) {
+	for i := 0; i < x; i++ {
+		if i%3 == 0 && i%5 == 0 {
+			fmt.Println("fizzBuzz", i)
+		} else if i%5 == 0 {
+			fmt.Println("buzz", i)
+		} else if i%3 == 0 {
+			fmt.Println("fizz", i)
+		}
+	}
 }
