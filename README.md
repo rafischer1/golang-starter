@@ -34,3 +34,16 @@ dereference the incrementer and point to the original variable
 func inc(x *int) {
 	*x++
 }
+
+________________________________
+for loops:
+
+for j := 7; j <= 9; j++ {
+  fmt.Println(j)
+}
+
+i := 1
+    for i <= 3 {
+        fmt.Println(i)
+        i = i + 1
+    }
