@@ -1,16 +1,16 @@
 //DOCS
 https://golang.org/doc/
 
-
 //newsletters
 https://golangweekly.com/
-
 
 //frontend stuff
 https://golang.org/pkg/net/
 https://golang.org/pkg/net/http/
 https://tutorialedge.net/golang/writing-frontend-web-framework-webassembly-go/
 
+//backend stuff
+https://golang.org/pkg/database/sql/
 
 //gameboy emulator
 https://github.com/Humpheh/goboy 
