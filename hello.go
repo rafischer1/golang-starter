@@ -26,14 +26,14 @@ func main() {
 	b[2] = 3
 	fmt.Println(b)
 
-	vertices := make(map[string]int)
-	vertices["one"] = 2
-	vertices["two"] = 3
-	vertices["three"] = 5
+	list := make(map[string]int)
+	list["one"] = 2
+	list["two"] = 3
+	list["three"] = 5
 
-	delete(vertices, "three")
+	delete(list, "three")
 
-	fmt.Println(vertices)
+	fmt.Println(list)
 
 	//loops
 	for i := 0; i < 5; i++ {
@@ -73,13 +73,11 @@ func main() {
 	//the pointer to the memory address of z
 	z := 7
 	inc(&z)
-	fmt.Println(z)
-
+	fmt.Println("pointer value:", z)
 }
 
 func sum(x int, y int) int {
 	return x + y
-
 }
 
 func sqrt(x float64) (float64, error) {
