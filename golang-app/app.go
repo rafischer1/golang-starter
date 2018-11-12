@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("listening on :8080")
-	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+	fmt.Fprintf(w, "Hi there, %s!", r.URL.Path[1:])
 }
 
 func main() {
