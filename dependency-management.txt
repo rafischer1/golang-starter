@@ -1,1 +1,14 @@
 # How do we manage versions, libraries, and dependencies?
+
+1. packages go first then linked dependencies
+
+import (
+   "fmt"
+   "io"
+   "log"
+   "testing"
+   
+   "golang.org/x/net/websocket"
+)
+
+2. what are goroutines?

@@ -7,6 +7,8 @@ https://golangweekly.com/
 
 
 //frontend stuff
+https://golang.org/pkg/net/
+https://golang.org/pkg/net/http/
 https://tutorialedge.net/golang/writing-frontend-web-framework-webassembly-go/
 
 
