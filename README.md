@@ -25,10 +25,12 @@ name string
 age  int
 
 // variable declaration
+```
 var d = true
 e := false
 fmt.Println("d, e:", d, e)  // d, e: true false
 var b, c int = 1, 2
+```
 
 
 -----------------------------------
@@ -43,12 +45,15 @@ libraries:
 -----------------------------------
 pointers * => &
 dereference the incrementer and point to the original variable
+```
 func inc(x *int) {
 	*x++
 }
+```
 
 ________________________________
 for loops:
+```
 
 for j := 7; j <= 9; j++ {
   fmt.Println(j)
@@ -60,7 +65,7 @@ i := 1
         i = i + 1
     }
     
-
+```
 -------------------------------------
 
 fizzBuzz:
