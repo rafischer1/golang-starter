@@ -5,12 +5,14 @@ https://golang.org/doc/
 https://golangweekly.com/
 
 //frontend stuff
+https://github.com/gobuffalo/buffalo
 https://golang.org/pkg/net/
 https://golang.org/pkg/net/http/
 https://tutorialedge.net/golang/writing-frontend-web-framework-webassembly-go/
 
 //backend stuff
 https://golang.org/pkg/database/sql/
+https://github.com/nanobox-io/golang-scribble
 
 //gameboy emulator
 https://github.com/Humpheh/goboy 

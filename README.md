@@ -86,3 +86,10 @@ func fizzBuzz(x int) {
 ```
 
 --------------------------------------
+#maps
+make(map[key-type]val-type)
+
+Set key/value pairs using typical name[key] = val syntax
+
+Get a value for a key with name[key].
+______________________________________
