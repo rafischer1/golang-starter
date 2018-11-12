@@ -9,7 +9,7 @@ func main() {
   
   "FMT" - based on C's printf()
   ```
-    %.2f = two decimal place precision
+    %.2f - two decimal place precision
     %-8.1f ➡ "100.6   " "left alignment"
     % x ➡ "01 02 03 04" "spacing"
   ```
