@@ -12,7 +12,7 @@ type person struct {
 }
 
 func main() {
-	fmt.Println("Hi")
+	fmt.Println("Hello World")
 
 	x := 20
 	fmt.Println(x)
