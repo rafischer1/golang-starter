@@ -1,4 +1,6 @@
 # golang-starter package
+//DOCS
+[!link]https://golang.org/doc/
 
 ```
 package main
