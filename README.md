@@ -1,11 +1,16 @@
 # golang-starter package
 
+```
 package main
 import {}
 func main() {
   fmt.Println("Hi")
 }
+```
+```
+  go get _repo address
   go run __filename
+```
   
   "FMT" ➡ based on C's printf()
   ```
