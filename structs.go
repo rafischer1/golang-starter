@@ -21,10 +21,7 @@ func main() {
 	fmt.Println("gorilla:", gorilla)
 	fmt.Println("gorilla's region:", gorilla.region)
 
-	gp := &tiger
-
-	fmt.Println(gp.age)
-
-	fmt.Println(gp.animalFunc())
+	ta := &tiger
+	fmt.Println(ta.animalFunc())
 
 }
