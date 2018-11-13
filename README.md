@@ -93,3 +93,17 @@ Set key/value pairs using typical name[key] = val syntax
 
 Get a value for a key with name[key].
 ______________________________________
+
+#structs
+
+```
+type Animal struct {
+	name   string
+	region string
+	age    int
+}
+
+func (a Animal) animalFunc() string {
+	return "The " + a.name + " lives in " + a.region + "."
+}
+```
