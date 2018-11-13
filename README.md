@@ -106,4 +106,7 @@ type Animal struct {
 func (a Animal) animalFunc() string {
 	return "The " + a.name + " lives in " + a.region + "."
 }
+
+ta := &tiger
+fmt.Println(ta.animalFunc())
 ```
