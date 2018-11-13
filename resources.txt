@@ -13,6 +13,7 @@ https://tutorialedge.net/golang/writing-frontend-web-framework-webassembly-go/
 //backend stuff
 https://golang.org/pkg/database/sql/
 https://github.com/nanobox-io/golang-scribble
+https://github.com/sauerbraten/crudapi#example
 
 //gameboy emulator
 https://github.com/Humpheh/goboy 
