@@ -1,20 +1,23 @@
 # golang-starter package
-//DOCS: https://golang.org/doc/
 
-```
+## DOCS: https://golang.org/doc/
+
+```go
 package main
 import {"fmt"}
 func main() {
   fmt.Println("Hi")
 }
 ```
-```
+
+```go
   go get _repo address
   go run __filename
 ```
   
   "FMT" ➡ based on C's printf()
-  ```
+
+  ```go
     %.2f ➡ two decimal place precision
     %-8.1f ➡ "100.6   " "left alignment"
     % x ➡ "01 02 03 04" "spacing"
@@ -26,7 +29,7 @@ name string
 age  int
 
 // variable declaration
-```
+```go
 var d = true
 e := false
 fmt.Println("d, e:", d, e)  // d, e: true false
@@ -46,7 +49,7 @@ libraries:
 -----------------------------------
 pointers * => &
 dereference the incrementer and point to the original variable
-```
+```go
 func inc(x *int) {
 	*x++
 }
@@ -54,7 +57,7 @@ func inc(x *int) {
 
 ________________________________
 for loops:
-```
+```go
 
 for j := 7; j <= 9; j++ {
   fmt.Println(j)
@@ -71,7 +74,7 @@ i := 1
 
 fizzBuzz:
 
-```
+```go
 func fizzBuzz(x int) {
 	for i := 1; i <= x; i++ {  
 		if i%3 == 0 && i%5 == 0 {
@@ -96,7 +99,7 @@ ______________________________________
 
 #structs
 
-```
+```go
 type Animal struct {
 	name   string
 	region string
